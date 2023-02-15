@@ -1,0 +1,207 @@
+#rectangle{
+  width: 500px;
+    height:1000px;
+   background-color:darkorange;
+  transform:skew(30deg) rotate(80deg) translate(300px, -30px) scale(0.6);
+  transform-origin: center;
+  position: relative;
+  left:250px;
+}
+.cylinder {
+	position: relative;
+  bottom: 400px;
+  right: 170px;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100px;
+	height: 160px;
+	border-radius: 50px/25px;
+	background-color: red;
+}
+
+
+#circle{
+  width:300px;
+  height:200px;
+  background-color: yellow;
+  border-radius:50%;
+  position: relative;
+  bottom: 635px;
+  left: 385px;
+   transform:scale(0.32)
+  
+}
+
+#bottlebottom{
+    width:120px;
+    height:200px;
+    position:relative;
+  bottom: 705px;
+  left: 650px;
+    background-color: gray;
+   opacity:.5;
+  border-radius:0px 0px 20px 20px;}
+
+#bottlemid{
+border-bottom: 30px solid gray;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+      border-radius:20%;
+    height: 0;
+    width: 90px;
+    opacity:.5;
+  position:relative;
+bottom: 930px;
+  left: 645px;}
+
+#bottletop{
+    width:80px;
+    height:20px;
+    border-radius:15%;
+     position:relative;
+bottom: 979px;
+  left: 670px;
+    opacity:.5;
+    background-color: gray;
+}
+
+#stem1{
+    height:100px;
+    width:10px;
+  position:relative;
+  bottom: 1020px;
+  left: 700px;   
+    background-color: green;
+    z-index: 2;
+}
+#stem2{
+    height:140px;
+    width:10px;
+  position:relative;
+  bottom: 1110px;
+  left: 735px;   
+    background-color: green;
+    z-index: 2;
+}
+
+#stem3{
+    height:200px;
+    width:10px;
+  position:relative;
+  bottom: 1290px;
+  left: 680px;   
+    background-color: green;
+    z-index: 2;
+}
+#petal1{
+    width:30px;
+    height:40px;
+    background-color: #FFD700;
+   border-radius:50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 11;
+  position:relative;
+  bottom: 1485px;
+  left: 690px;  
+}
+
+#petal2{
+    width:30px;
+    height:40px;
+    background-color: #FFD700;
+   border-radius:50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 11;
+  position:relative;
+  bottom: 1495px;
+  left: 725px;  
+}
+
+
+#petal3{
+    width:30px;
+    height:40px;
+    background-color: #FFD700;
+   border-radius:50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 11;
+  position:relative;
+  bottom: 1600px;
+  left: 668px;  
+}
+#pollen1{
+    width:10px;
+    height:20px;
+    background-color: #32CD32;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+position:relative;
+  bottom: 1632px;
+  left: 679px;
+  z-index: 11;
+
+}
+#pollen2{
+    width:10px;
+    height:20px;
+    background-color: #32CD32;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+position:relative;
+  bottom: 1620px;
+  left: 700px;
+  z-index: 11;
+
+}
+#pollen3{
+    width:10px;
+    height:20px;
+    background-color: #32CD32;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+position:relative;
+  bottom: 1605px;
+  left: 735px;
+  z-index: 11;
+
+}
+
+#parallelogram1{
+	width: 100px;
+	height: 30px;
+	transform: skew(-50deg) scale(1.5);
+;
+	background:GRAY;
+position:relative;
+  bottom: 1605px;
+  left: 825px;
+  z-index: 11;
+
+}
+
+#parallelogram2{
+	width: 100px;
+	height: 30px;
+	transform: skew(-30deg) scale(1.5) rotate(70deg);
+;
+	background:GRAY;
+position:relative;
+  bottom: 1580px;
+  left: 890px;
+  z-index: 11;
+
+}
+#bookbelow {
+  height: 100px;
+  width:100px;
+  transform: skew(-30deg);
+  background-color:#F0E68C;
+  position: relative;
+  bottom: 1660px;
+  left: 800px;
+  z-index: 11;
+}
+
+
+
+
+
+
+
